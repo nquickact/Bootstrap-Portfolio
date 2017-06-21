@@ -4,6 +4,7 @@ body {
   line-height: 34px;
   color: #777;
   background: url("http://images.naldzgraphics.net/2014/07/42-white-seamless-concrete-textures.jpg");
+  margin-bottom: 72px;
 }
 * {
   box-sizing: border-box;
@@ -83,7 +84,9 @@ nav a:first-child {
 }
 /* footer */
 footer {
+  position: absolute;
   padding: 30px 0;
+  width: 100%;
   clear: both;
   font-size: 12px;
   color: #fff;
@@ -91,7 +94,9 @@ footer {
   text-align: center;
   background: #666;
   border-top: 8px solid #4aaaa5;
-  margin-bottom: -40px;
+  bottom: 0;
+
+  
 }
 /* sidebar */
 .sidebar {
@@ -163,8 +168,8 @@ h3,
 }
 .auth-image {
   float: left;
-  width: 200px;
-  height: auto;
+  width: 300px;
+  height: 300px;
   margin-top: 10px;
   margin-right: 25px;
 }
